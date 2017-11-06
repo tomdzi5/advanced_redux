@@ -10,6 +10,10 @@ describe('App', () => {
 
   it('shows comment box', () => {
     expect(component.find('.comment-box')).to.exist
+  });
+
+  it('shows comment list', () => {
+    expect(component.find('.comment-list')).to.exist
   })
 
 });
